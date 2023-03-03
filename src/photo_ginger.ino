@@ -6,16 +6,16 @@
 
 #define A 4
 #define B 5
-#define C 6
+#define C 10
 #define D 7
 #define E 8
 #define F 9
-#define G 10
+#define G 6
 
-#define D1 A1
-#define D2 A2
-#define D3 A3
-#define D4 A4
+#define D1 A4
+#define D2 A3
+#define D3 A2
+#define D4 A1
 
 #define START_CODE 16761405
 #define TIME_MINUS 16769055
@@ -31,7 +31,7 @@ Servo servoFinger;
 
 const int timerStepsLength = 3;
 const int timeSteps[timerStepsLength] = {1,10,60};
-int time = 939;
+int time = 60;
 int timer = time;
 int i = 0;
 int timeStepIndex = 0;
