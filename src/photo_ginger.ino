@@ -4,13 +4,13 @@
 #define SERVO_PIN 3
 #define IR_PIN 2
 
-#define A 4
-#define B 5
-#define C 10
-#define D 7
-#define E 8
-#define F 9
-#define G 6
+#define A 9
+#define B 8
+#define C 4
+#define D 6
+#define E 5
+#define F 10
+#define G 7
 
 #define D1 A4
 #define D2 A3
@@ -23,8 +23,8 @@
 #define TIME_STEP_PLUS 16712445
 #define TIME_STEP_MINUS 16720605
 
-#define DEFAULT_ANGLE 180
-#define PUSH_ANGLE 90
+#define DEFAULT_ANGLE 0
+#define PUSH_ANGLE 35
 
 IRrecv irRecv(IR_PIN);
 Servo servoFinger;
